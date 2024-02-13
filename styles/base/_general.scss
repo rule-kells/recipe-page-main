@@ -1,9 +1,17 @@
 @use "../abstracts/" as *;
 
-// html,
-// body {
-//     overflow-x: hidden;
-// }
+html,
+body {
+    overflow-x: hidden;
+}
 
-// body {
-// }
+body {
+    background-color: clr(neutral, 300);
+    font-size: fs(xs);
+    line-height: 1.25;
+
+    @include mq(tablet) {
+        font-size: fs(body);
+    }
+
+}

@@ -1,15 +1,23 @@
 @use "../abstracts" as *;
 
-@each $unit-name,
-$unit-value in $font-sizes {
-  .fs-heading-#{$unit-name} {
+
+
+@each $unit-name, $unit-value in $font-sizes {
+
+  .fs-#{$unit-name} {
     font-size: $unit-value;
 
-    @if $unit-name >600 {
+    @if #{"$unit-name  > l"} {
       line-height: 1.1;
+
+    }
+
+    @else {
+      line-height: 1;
     }
   }
 }
+
 
 .uppercase {
   text-transform: uppercase;
