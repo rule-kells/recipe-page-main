@@ -31,7 +31,7 @@
   }
 }
 
-@include mq(desktop) {
+@include mq(tablet) {
   .container[data-type="wide"] {
     --max-width: #{pxToRem($container-max-width-wide)};
   }
@@ -191,7 +191,7 @@
 }
 
 
-.underline {
-  text-decoration: underline pxToRem(4px) solid clr(primary, 300);
-  text-underline-offset: 0.6rem;
-}
+// .underline {
+//   text-decoration: underline pxToRem(4px) solid clr(primary, 300);
+//   text-underline-offset: 0.6rem;
+// }

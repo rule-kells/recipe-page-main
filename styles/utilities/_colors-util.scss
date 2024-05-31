@@ -5,8 +5,14 @@
     .clr-#{$color}-#{$shade} {
       color: $value;
     }
+
     .bg-#{$color}-#{$shade} {
       background-color: $value;
     }
   }
+}
+
+
+.primary-accent {
+  color: clr(primary, 500);
 }

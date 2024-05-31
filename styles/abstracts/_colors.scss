@@ -1,23 +1,12 @@
 $clr-palette: (
-  primary: (300: hsl(153, 71%, 59%),
-    400: hsl(0, 100%, 67%),
-    500: hsl(259, 100%, 65%),
-    // 800: darkblue,
+  primary: (500:hsl(14, 45%, 36%), 900: #7b284f),
+  neutral: (50: hsl(330, 100%, 98%), 100: hsl(31, 53%, 90%),
+    200: hsl(30, 18%, 87%),
+    700: hsl(32, 10%, 34%),
+    900: hsl(15, 4%, 18%),
   ),
-  neutral: (100: hsl(0, 0%, 98%),
-    200: hsl(0, 0%, 94%),
-    300: hsl(0, 0%, 85%),
-    600: hsl(0, 1%, 44%),
-    800: hsl(0, 0%, 14%),
-    900: hsl(0, 0%, 8%),
-  ),
-  // clr-black: (
-  //   "black": hsl(0, 0%, 0%),
-  // ),
-  // clr-white: (
-  //   "white": hsl(0, 0%, 100%),
-  // ),,,,,,,,,,,,,,,,,,,,,,,,,,
 );
+
 
 //this is largely based on Google's Material Theme
 // $clr-palette-primary

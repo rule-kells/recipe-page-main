@@ -36,16 +36,19 @@ body {
   min-height: 100vh;
 }
 
-ul[class] {
-  list-style: none;
-  padding: 0;
-}
+// ul[class],
+// ol[class] {
+//   list-style: none;
+//   padding: 0;
+// }
 
 ul[class],
+ol[class],
 li[class] {
   display: inline-block;
   margin: 0;
   padding: 0;
+  list-style-position: inside
 }
 
 a[class] {

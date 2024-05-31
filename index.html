@@ -7,44 +7,42 @@
   <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap"
+    rel="stylesheet">
   <link rel="stylesheet" href="/styles/main.scss">
 
   <title>Frontend Mentor | Recipe page</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution {
-      font-size: 11px;
-      text-align: center;
-    }
 
-    .attribution a {
-      color: hsl(228, 45%, 44%);
-    }
-  </style>
 </head>
 
 <body>
 
-  <main class="container">
-    <section>
-      <img src="./assets/images/image-omelette.jpeg" alt="an omelette on a plate">
-      <h1 class="fs-m">Simple Omelette Recipe</h1>
+  <main class="card container" data-type="wide">
+    <div class="img-container"><img src="./assets/images/image-omelette.jpeg" alt="an omelette on a plate"></div>
+
+    <section class="container">
+      <h1 class="ff-primary ">Simple Omelette Recipe</h1>
       <p>
         An easy and quick dish, perfect for any meal. This classic omelette combines beaten eggs cooked
         to perfection, optionally filled with your choice of cheese, vegetables, or meats.
       </p>
     </section>
 
-    <section>
-      <h2>Preparation time</h2>
-      <ul>
-        <li>Total: Approximately 10 minutes</li>
-        <li>Preparation: 5 minutes</li>
-        <li>Cooking: 5 minutes</li>
+    <section class="container preparation">
+      <h2 class="ff-primary primary-accent">Preparation time</h2>
+      <ul class="prep__list flow">
+        <li><strong>Total</strong>: Approximately 10 minutes</li>
+        <li><strong>Preparation</strong>: 5 minutes</li>
+        <li><strong>Cooking</strong>: 5 minutes</li>
       </ul>
-      <h2>Ingredients</h2>
-      <ul>
+    </section>
+
+    <section class="container">
+      <h2 class="ff-primary">Ingredients</h2>
+      <ul class="ingred__list">
         <li>2-3 large eggs</li>
         <li>Salt, to taste</li>
         <li>Pepper, to taste</li>
@@ -53,9 +51,9 @@
       </ul>
     </section>
 
-    <section>
-      <h2>Instructions</h2>
-      <ol>
+    <section class="instructions container">
+      <h2 class="ff-primary">Instructions</h2>
+      <ol class="instruct__list">
         <li>
           <strong>Beat the eggs</strong>: In a bowl, beat the eggs with a pinch of salt and pepper until they are well
           mixed.
@@ -82,8 +80,8 @@
       </ol>
     </section>
 
-    <section>
-      <h2>Nutrition</h2>
+    <section class="nutrition container">
+      <h2 class="ff-primary">Nutrition</h2>
       <p>The table below shows nutritional values per serving without the additional fillings.</p>
       <table>
         <!-- <caption>Nutrition</caption> -->

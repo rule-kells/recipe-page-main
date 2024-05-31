@@ -1,5 +1,17 @@
 // @use "../abstracts/mixins" as *;
 
+.ff-primary {
+  font-family: "Young Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.ff-secondary {
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: normal;
+}
 
 $fs-heading-xl: 2.5rem;
 $fs-heading-l: 2rem;
@@ -22,14 +34,7 @@ $font-sizes: (
   body: 1rem,
 );
 
-// $font-sizes: (
-//   900: clamp(2.5rem, 0.5rem + 10vh, 5rem),
-//   800: clamp(2.5rem, 0.5rem + 7vh, 3.75rem),
-//   600: clamp(1.4rem, 0.5rem + 3vh, 1.6875rem),
-//   500: 1.3125rem,
-//   400: 1.125rem,
-//   300: 1rem,
-// );
+
 
 $fw: (
   400: 400,
